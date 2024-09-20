@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="shortcut icon" href="./img/lista.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/responsive.css">
+</head>
+
+<body>
+
+    
+
+    <main class="caixa">
+
+        <div class="remover-tudo">
+            <button id="recarregar">
+                <img title="Recarregar" src="./img/recarregar (1).png" alt="recarregar" width="32px">
+            </button>
+        </div>
+        <h1 class="titulo"> To Do - List <span class="emoji"> 📌 </span> </h1>
+
+        <section class="lista-caixa">
+
+            <div class="adicionar-itens">
+                <input id="entrada-item" type="text" placeholder="Digite uma tarefa" autocomplete="off">
+
+                <button id="adicionar">
+                    <img src="./img/mais.png" alt="adicionar item" width="40px">
+                </button>
+            </div>
+
+            <div id="lista-tarefas"></div>
+
+        </section>
+    </main>
+
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+@media (max-width:800px){
+    .caixa{
+        width: 500px;
+    }
+
+    .texto-tarefa{
+        max-width: 290px;
+    }
+}
+
+@media (max-width:600px){
+    .caixa{
+        width: 400px;
+    }
+
+    .texto-tarefa{
+        max-width: 200px;
+    }
+
+    .emoji{
+        display: none;
+    }
+
+    .titulo{
+        font-size: 40px ;
+    }
+}
+
+@media (max-width:460px){
+
+    .caixa{
+        width: 300px;
+    }
+
+    #recarregar {
+        
+        justify-content: center;
+        margin: 0 auto;
+
+    }
+
+    #recarregar img{
+        width: 30px;
+
+    }
+
+    .titulo{
+        font-size: 35px;
+    }
+
+    .adicionar-itens{
+        gap: 10px;
+    }
+
+    .texto-tarefa{
+        max-width: 150px;
+    }
+
+    .adicionar-itens #entrada-item{
+        width: 150px;
+    }
+
+    .adicionar-itens #entrada-item::placeholder{
+        font-size: 15px;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .adicionar-itens #adicionar img{
+        width: 25px;
+    }
+
+    li{
+        width: 220px;
+        font-size: 12px;
+        gap: 10px;
+        margin-left: -15px;
+    }
+
+     .conclu , .remov{
+        width: 16px;
+    }
+
+    .adicionar-itens #adicionar img{
+        width: 35px;
+    }
+}
+
+
+
+@media (max-width:350px){
+
+    .caixa{
+        width: 260px;
+    }
+
+    .texto-tarefa{
+        max-width: 135px;
+    }
+
+    .adicionar-itens #entrada-item{
+        width: 130px;
+    }
+
+    .adicionar-itens #entrada-item::placeholder{
+        font-size: 12px;
+    }
+
+    li{
+        word-wrap: break-word;
+        margin-left: -20px;
+        width: 200px;
+        font-size: 11px;
+        gap: 10px;
+    }
+
+    .adicionar-itens #adicionar img{
+        width: 30px;
+    }
+}
+
+
+
+
+@media (max-width:280px){
+
+    .caixa{
+        width: 210px;
+    }
+
+    #recarregar {
+        
+        justify-content: center;
+        margin: 0 auto;
+
+    }
+
+    #recarregar img{
+        width: 25px;
+
+    }
+
+    .titulo{
+        font-size: 25px;
+        margin-right: 5px;
+    }
+
+    li{
+        word-wrap: break-word;
+        margin-left: -20px;
+        width: 150px;
+        font-size: 11px;
+        gap: 10px;
+    }
+
+    .texto-tarefa{
+        max-width: 80px;
+    }
+
+    .adicionar-itens #adicionar img{
+        width: 27px;
+    }
+
+}
+
