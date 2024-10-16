@@ -16,13 +16,6 @@ Este é um projeto simples de **Lista de Tarefas** (ToDo List) desenvolvido com 
 - **CSS3**
 - **JavaScript (ES6)**
 - **LocalStorage API**
-
-## Como Usar
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-
   
 Estrutura do Projeto:
 ├── index.html         # Estrutura HTML da página
